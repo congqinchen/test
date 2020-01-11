@@ -207,3 +207,12 @@
 		git branch --set-upstream-to=origin/smart smart
 
 ```
+
+> ** 从远程分支上拉取代码 **
+
+```
+	git pull orgin 分支名称
+	例：
+	git pull orgin smart
+
+```
