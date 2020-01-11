@@ -188,3 +188,22 @@
 
 ```
 
+> ** 推送分支，就是把该分支上的所有本地提交推送到远程库 **
+
+```
+	git push origin 分支名称
+
+	例：
+		git push origin smart
+
+```
+
+> ** 本地分支跟踪服务器分支 **
+
+```
+	git branch --set-upstream-to=origin/远程分支名称 本地分支名称
+
+	例：
+		git branch --set-upstream-to=origin/smart smart
+
+```
